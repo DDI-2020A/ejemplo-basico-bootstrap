@@ -1,3 +1,7 @@
+body {
+	text-transform: lowercase;
+}
+
 nav.navbar {
 	height: 100px;
 }
@@ -6,12 +10,12 @@ nav.navbar {
 	justify-content: flex-end;
 }
 
-.btn-primary {
-	background-color: #000000;
-	color: #ffffff;
-	border-color: #000000;
+.main-header {
+	background-color: #FFE1BC;
+}
+
+.btn-dark {
 	border-radius: 25px;
-	text-transform: lowercase;
 }
 
 .btn-primary:hover {
